@@ -1,24 +1,10 @@
-# 💰 Finance Tracker
+# Finance Tracker
 
 A full-stack personal finance management system that allows users to track income, expenses, and budgets with ease. Built with **Next.js**, **Express.js**, and **MongoDB**, it offers secure, device-independent access to financial data, along with categorization, budgeting, and transaction tracking.
 
 ---
 
-## 📖 Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Database Schema](#database-schema)
-- [API Endpoints](#api-endpoints)
-- [Roles](#roles)
-- [Installation](#installation)
-- [Future Enhancements](#future-enhancements)
-- [Contributors](#contributors)
-- [License](#license)
-
----
-
-## 📝 Introduction
+## Introduction
 Managing personal finances efficiently is crucial in today’s fast-paced world. **Finance Tracker** provides a structured way to record transactions, allocate budgets, and gain insights into spending habits.  
 The system enables:
 - Categorization of expenses
@@ -28,26 +14,17 @@ The system enables:
 
 ---
 
-## ✨ Features
-- 🔐 **User Authentication** — Secure login for users and admins
-- 📊 **Budget Tracking** — Allocate budgets to categories and monitor spending
-- 🗂 **Expense Categorization** — Organize transactions into custom categories
-- 📈 **Transaction History** — View all income and expense transactions
-- 🖥 **Role-based Access** — Separate privileges for Admin, User, and Viewer
-- ⚡ **REST API Support** — Well-defined endpoints for all core operations
+## Features
+- **User Authentication** — Secure login for users and admins
+- **Budget Tracking** — Allocate budgets to categories and monitor spending
+- **Expense Categorization** — Organize transactions into custom categories
+- **Transaction History** — View all income and expense transactions
+- **Role-based Access** — Separate privileges for Admin, User, and Viewer
+- **REST API Support** — Well-defined endpoints for all core operations
 
 ---
 
-## 🛠 Tech Stack
-| Layer       | Technology |
-|-------------|------------|
-| Frontend    | [Next.js](https://nextjs.org/) |
-| Backend     | [Express.js](https://expressjs.com/) |
-| Database    | [MongoDB](https://www.mongodb.com/) |
-
----
-
-## 🗄 Database Schema
+## Database Schema
 
 ### **User**
 | Field | Type | Constraints |
@@ -96,7 +73,7 @@ The system enables:
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### **User Management**
 - `POST /users/` — Create a new user  
@@ -117,21 +94,18 @@ The system enables:
 
 ---
 
-## 👥 Roles
-- **Admin** — Full database access, can view and modify all data  
-- **User** — Can manage their own transactions, budgets, and categories  
-- **Viewer** — Read-only access to system attributes  
+## Tech Stack
+| Layer       | Technology |
+|-------------|------------|
+| Frontend    | Next.js |
+| Backend     | Express.js |
+| Database    | MongoDB |
 
 ---
 
-## ⚙ Installation
-```bash
-# Clone the repository
-git clone https://github.com/your-username/finance-tracker.git
-cd finance-tracker
+## Roles
+- **Admin** — Full database access, can view and modify all data  
+- **User** — Can manage their own transactions, budgets, and categories  
+- **Viewer** — Read-only access to the attributes of specific users
 
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
+---

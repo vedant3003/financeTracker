@@ -26,6 +26,8 @@ The system enables:
 
 ## Database Schema
 
+![Database Schema](assets/db_schema.png)
+
 ### **User**
 | Field | Type | Constraints |
 |-------|------|-------------|
